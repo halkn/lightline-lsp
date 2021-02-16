@@ -41,5 +41,13 @@ See vim-lsp documentation for more infomation.
 The sign when vim-lsp diagnostic result does not exist is set with `g:lightline_lsp_signs_ok`.
 The default value if this global variable does not exist is `OK`.
 
+You can define icons instead of text:
+
+```vim
+let g:lightline_lsp_icon_warning = ''
+let g:lightline_lsp_icon_error = ''
+let g:lightline_lsp_icon_ok = ''
+```
+
 [1]: https://github.com/itchyny/lightline.vim "lightline.vim"
 [2]: https://github.com/prabirshrestha/vim-lsp "vim-lsp"
